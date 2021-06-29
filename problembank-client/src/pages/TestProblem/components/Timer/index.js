@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import FooterMainPage from '../../../AfterTest/components/FooterMainPage'
+import '../../pages/DetailProblem/index';
+import DetailProblem from '../../pages/DetailProblem/index';
 
 var moment = require('moment');
 export default function App(props) {
@@ -11,7 +12,7 @@ export default function App(props) {
     min = 15;
   }
   else {
-    min = 10;
+    min = 1;
   }
 
   let [minutes, setMinutes] = useState(min);
